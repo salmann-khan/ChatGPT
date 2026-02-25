@@ -4,8 +4,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Google Sans", sans-serif;
+     text-decoration: none;
 }
 body{
     text-decoration: none;
     list-style: none;
+}
+.left{
+    color: white;
+    height: 100%;
+    width: 30%;
+    background: rgb(20, 20, 20);
+}
+.left .suggestions{
+    position: relative;
+    padding: 25% 30px 2px 0;
+    line-height: 2rem;
+}
+.left .chats{
+    padding: 20px 20px 0px 0px;
+}
+.left .chats a{
+    color: #c0c0c0;
+     padding-bottom: 0;
+}
+.left .chats p{
+    font-size: .9em;
+}
+.left .yourchats{
+    padding: 20px 20px 0px 0px;
+}
+.left .yourchats a{
+    color: #c0c0c0;
+     padding-bottom: 0;
+}
+.left .yourchats p{
+    font-size: .9em;
+}
+.main{
+    background: #f0f0;
+    margin-left: 20%;
+    width: 80%;
+    height: 100%;
 }
